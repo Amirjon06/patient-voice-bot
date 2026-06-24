@@ -1,0 +1,59 @@
+Scenario: 01_schedule_new
+Call SID: CA1d5cce5a63bf81b5faf3376449783e84
+Generated: 2026-06-24T17:06:42.350022Z
+============================================================
+
+OFFICE AGENT: This call may be recorded for quality and training purposes.
+
+OFFICE AGENT: Thanks for calling pivot point orthopedics part of pretty good AI am I speaking with Marcus
+
+PATIENT (bot): Yeah, this is Marcus. I'm calling to set up my first appointment for a general physical, if we can do something in the next couple of weeks.
+
+OFFICE AGENT: Please provide your date of birth.
+
+PATIENT (bot): Sure, it's October 12, 1987. What else do you need?
+
+OFFICE AGENT: Thanks, Marcus. Just to confirm, you'd like to schedule your first visit as a new patient for a general physical. Is that correct?
+
+PATIENT (bot): Yeah, that's right. Ideally a weekday morning sometime in the next two weeks if you have it.
+
+OFFICE AGENT: Do you have a specific provider you'd like to see or are you open to any available provider?
+
+PATIENT (bot): I'm open to whoever's available, as long as it's soon.
+
+OFFICE AGENT: Money check for weekday morning openings in the next two weeks with any available provider.
+
+PATIENT (bot): Sounds good, thanks.
+
+OFFICE AGENT: The soonest we can.
+
+PATIENT (bot): Okay, what date and time is that?
+
+OFFICE AGENT: The earliest opening is Tuesday, June 30th at 12.45 p.m. with Doogie Houser. Would you like to book that slot?
+
+PATIENT (bot): That's not really a morning. Any actual morning slots?
+
+OFFICE AGENT: There aren't any morning openings in the next week, but I can check for morning slots the following week. Would you like me to look for those?
+
+PATIENT (bot): Yeah, please check the following week for mornings.
+
+OFFICE AGENT: One moment while I check for morning openings the week after next.
+
+PATIENT (bot): Alright, I'll hold.
+
+OFFICE AGENT: Have a good morning.
+
+PATIENT (bot): Hello? Did you find any morning slots?
+
+OFFICE AGENT: Yes, I found several morning openings on Tuesday, July 7th. The earliest is at 9 a.m. With a broker There's also 9 45 a.m. With a broker in 10 30 a.m. With either a broker or do V Hauser Would you like to book one of these times?
+
+PATIENT (bot): I'll take the 9 a.m. on July 7th with Aberker.
+
+OFFICE AGENT: Your appointment is set for Tuesday, July 7th at 9 a.m. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have. Would you like a text message with these details?
+
+PATIENT (bot): Yeah, a text would be great, thanks.
+
+OFFICE AGENT: You'll get a text with your appointment details soon. If you have any other questions or need to reschedule, just let me know.
+
+PATIENT (bot): No, that should be all. Thanks for your help. Bye.
+

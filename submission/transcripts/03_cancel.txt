@@ -1,0 +1,47 @@
+Scenario: 03_cancel
+Call SID: CAbc020238b77ded428ccc9eef33f35fb9
+Generated: 2026-06-24T17:33:01.208029Z
+============================================================
+
+OFFICE AGENT: Esta llamada puede ser grabada para motivos de calidad y entrenamiento.
+
+OFFICE AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?
+
+PATIENT (bot): No, this is Frank Russo. I'm calling to cancel my appointment next week. Could you help me with that?
+
+OFFICE AGENT: Please provide the full name and date of birth of the patient whose appointment you'd like to cancel.
+
+PATIENT (bot): Sure, it's Frank Russo, and my birthday is January 12th, 1966.
+
+OFFICE AGENT: Just to confirm, I have your name as Frank Russo and your date of birth as January 12, 1966. Is that correct? If so, could you please spell your first and last name for me?
+
+PATIENT (bot): Yeah, that's right. It's Frank, F-R-A-N-K, and Russo, R-U-S-S-O.
+
+OFFICE AGENT: Would you like to use your phone number to look up your record? If so, please tell me the number you have on file with us. If you're not sure, just let me know.
+
+PATIENT (bot): I'm not sure what number you have on file, honestly. Can you just find me with the info I gave?
+
+OFFICE AGENT: Let's try again. Please confirm your first and last name and your date of birth.
+
+OFFICE AGENT: Could you spell your name for me one more time?
+
+PATIENT (bot): It's Frank, F-R-A-N-K, and Russo, R-U-S-S-O. Date of birth is January 12th, 1966.
+
+OFFICE AGENT: I have your phone number as 223-217-8770.
+
+OFFICE AGENT: and your date of birth is January 12th, 1966. Is that correct?
+
+PATIENT (bot): Yeah, that sounds right.
+
+OFFICE AGENT: We can't cancel the appointment right now, but I'll connect you to our patient support team so they can help. Please stay on the line.
+
+OFFICE AGENT: Connecting you to a representative.
+
+PATIENT (bot): Alright, I'm here.
+
+OFFICE AGENT: Please wait.
+
+OFFICE AGENT: Hello, you've reached the pretty good AI test line. Goodbye.
+
+PATIENT (bot): Wait, what? I still need to cancel my appointment. Hello?
+

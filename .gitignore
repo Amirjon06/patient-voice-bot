@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+recordings/*.mp3
+recordings/*.ogg
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+
+transcripts/
+recordings/
+src/scenarios_backup.py

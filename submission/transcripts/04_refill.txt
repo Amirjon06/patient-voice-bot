@@ -1,0 +1,39 @@
+Scenario: 04_refill
+Call SID: CA2e7ba069c097338a7f086658d9a35607
+Generated: 2026-06-24T18:09:22.336490Z
+============================================================
+
+OFFICE AGENT: Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Español, oprima el 2.
+
+OFFICE AGENT: Thanks for calling pivot point orthopedics part of pretty good AI am I speaking with Marcus
+
+PATIENT (bot): Uh, no, this is Robert Diaz. I'm calling about my blood pressure meds.
+
+OFFICE AGENT: Please provide the full name and date of birth of the patient you're calling about.
+
+PATIENT (bot): Sure, it's Robert Diaz, March 18th, 1964.
+
+OFFICE AGENT: Just to confirm, I have your name as Robert Diaz and your date of birth as March 18, 1964. Is that correct? If so, please spell your first and last name for me.
+
+PATIENT (bot): Yeah, that's right. It's Robert, R-O-B-E-R-T, Diaz, D-I-A-Z.
+
+OFFICE AGENT: Would you like to use your phone number to look up your record? If so, please tell me the number you have on file with us. If you're not sure, just let me know and I'll confirm your name and date of birth again.
+
+PATIENT (bot): I’m not sure what phone number you have. Can we just use my name and birthdate?
+
+OFFICE AGENT: No problem. Just to be sure, your name is Robert Diaz, spelled R-O-B-E-R-T-D-I-A-Z, and your date of birth is March 18, 1964. Is that all correct?
+
+PATIENT (bot): Yeah, that's correct. I'm just trying to get a refill on my lisinopril sent to my usual pharmacy.
+
+OFFICE AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?
+
+PATIENT (bot): Yeah, please. I need to get this sorted before I run out.
+
+OFFICE AGENT: connecting you to a representative. Please wait.
+
+OFFICE AGENT: Hello, you've reached the pretty good AI test line. Goodbye
+
+PATIENT (bot): Okay, thanks.
+
+PATIENT (bot): Wait, what? Hello? I was trying to get my prescription refilled. Is anyone there?
+

@@ -1,0 +1,47 @@
+Scenario: 08_test_results
+Call SID: CAc7b8031387a9889fad3b9a88e62e5b7d
+Generated: 2026-06-24T18:28:07.693816Z
+============================================================
+
+OFFICE AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+
+OFFICE AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?
+
+PATIENT (bot): Uh, no, this is Henry Cole. I had bloodwork done last week and I'm calling to see if the results are back.
+
+OFFICE AGENT: Thanks for letting me know. Henry, are you calling on behalf of Marcus or are you the patient who had the blood work done?
+
+PATIENT (bot): I'm the patient. It's my bloodwork I'm checking on.
+
+OFFICE AGENT: I need your date of birth to look up your record. Without it, I can't access your information. If you prefer not to provide it, I won't be able to continue.
+
+PATIENT (bot): Yeah, sure, it's May 12th, 1971.
+
+OFFICE AGENT: Just to confirm, I have your name as Henry Cole and your date of birth as May 12, 1971. Is that correct? Yes.
+
+PATIENT (bot): Yep, that's right. Can you tell me if the results are in?
+
+OFFICE AGENT: Would you like me to look up your record using the phone number you have on file with us? If so, please tell me the number you use with our office. If you're not sure, I can confirm your name and date of birth again. Just let me know.
+
+PATIENT (bot): Let's just use my info. You've got the name and birthdate— is that enough to pull it up?
+
+OFFICE AGENT: Yes, that should be enough. Could you please spell your first and last name for me, just to make sure I have it exactly right?
+
+PATIENT (bot): Sure, it's Henry—H-E-N-R-Y—Cole, C-O-L-E.
+
+OFFICE AGENT: I have your name as Henry Cole, date of birth May 12th, 1971, and your phone number as 223-217-8770. Is all of that correct?
+
+PATIENT (bot): Yeah, that's correct. Are you able to see my results now?
+
+OFFICE AGENT: I can't pull up your records right now, but I can connect you to our patient support team for help with your blood work results. Would you like me to transfer you?
+
+PATIENT (bot): If they can actually tell me what the results say, yeah, please transfer me.
+
+OFFICE AGENT: Connecting you to a representative, please wait.
+
+OFFICE AGENT: Hello, you've reached the pretty good AI test line. Goodbye
+
+PATIENT (bot): Alright, I'm holding. Just let me know if you need anything else.
+
+PATIENT (bot): Wait, what? Hey, I was hoping to get my results. Are you still there? Uh, if not, I'll just call back.
+

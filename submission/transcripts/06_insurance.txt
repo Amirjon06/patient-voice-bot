@@ -1,0 +1,47 @@
+Scenario: 06_insurance
+Call SID: CAdbec9f5b7f4b6dd7fad7a7edfbb4c4b7
+Generated: 2026-06-24T18:18:05.984708Z
+============================================================
+
+OFFICE AGENT: Esta llamada puede ser grabada para motivos de calidad y entrenamiento.
+
+OFFICE AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?
+
+PATIENT (bot): No, this is Tom Bauer. I'm just calling to check on insurance stuff.
+
+OFFICE AGENT: Thanks for letting me know. Tom, are you calling about your own insurance?
+
+OFFICE AGENT: or for someone else.
+
+PATIENT (bot): It's for me. I just want to know if you take Blue Cross Blue Shield PPO and whether there's a copay for a routine visit.
+
+OFFICE AGENT: Please provide your date of birth.
+
+PATIENT (bot): Sure, it's May 12th, 1985. Could you let me know about the Blue Cross PPO thing after that?
+
+OFFICE AGENT: Could you please spell your first and last name for me just to make sure I have it right?
+
+OFFICE AGENT: and I have your date of birth.
+
+OFFICE AGENT: as May 12, 1985. Is that correct?
+
+PATIENT (bot): Yeah, that's right. It's Tom, T-O-M, and the last name is Bauer — B-A-U-E-R.
+
+OFFICE AGENT: Would you like to use your phone number to look up your record? If so, please tell me the number you have on file with us.
+
+OFFICE AGENT: If you're not sure, just confirm your first and last name and date of birth one more time.
+
+PATIENT (bot): I'm not sure what number you have. It's Tom Bauer, May 12th, 1985. Can we get back to the insurance question now?
+
+OFFICE AGENT: I can't look up your insurance details right now, but I can make sure our clinic support team pawls up with you. Would you like me to have them contact you about your Blue Cross Blue Shield PPO and co-pay questions?
+
+PATIENT (bot): Yeah, that'd be good. Just, uh, let them know I'm trying to find out if there's a copay for a routine visit. Thanks.
+
+OFFICE AGENT: Connecting you to a representative. Please wait.
+
+OFFICE AGENT: Hello, you've reached the Pretty Good AI test line. Goodbye.
+
+PATIENT (bot): Alright, I'm here.
+
+PATIENT (bot): Wait, goodbye? I just wanted my insurance question answered. Are you still there?
+

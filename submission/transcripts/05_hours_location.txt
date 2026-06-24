@@ -1,0 +1,17 @@
+Scenario: 05_hours_location
+Call SID: CAd573853e44c72bfacd8e5f9beb4c2ca7
+Generated: 2026-06-24T18:14:04.862662Z
+============================================================
+
+OFFICE AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+
+OFFICE AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Dude AI. Am I speaking with Marcus?
+
+PATIENT (bot): No, this is Kevin Tran. I just need to know what time you open on Saturdays and if there's parking nearby.
+
+OFFICE AGENT: Is there anything else I can help with?
+
+OFFICE AGENT: Evett Point Orthopedics is open Monday through Friday and closed on Saturdays. There is free patient parking available in the surface lot in front of the building.
+
+PATIENT (bot): Got it, closed on Saturdays and parking's out front. That's all I needed. Thanks, bye.
+

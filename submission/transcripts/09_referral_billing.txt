@@ -1,0 +1,31 @@
+Scenario: 09_referral_billing
+Call SID: CA87bc3dea4d2003c69d5773387640806a
+Generated: 2026-06-24T18:30:23.487131Z
+============================================================
+
+OFFICE AGENT: Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Español, oprima el 2.
+
+OFFICE AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?
+
+PATIENT (bot): Uh, no, this is Paul Nguyen calling. I actually need two things sorted out today—a referral to a dermatologist, and I have a question about a bill that seems way too high.
+
+OFFICE AGENT: Please provide your date of birth.
+
+PATIENT (bot): Sure, it's August 14, 1986.
+
+OFFICE AGENT: Can you please spell your first and last name for me, just to make sure I have it right? I have your date of birth as August 14, 1986.
+
+PATIENT (bot): Yeah, it's Paul Nguyen. Paul, P-A-U-L. Nguyen, N-G-U-Y-E-N. Can we get back to that dermatologist referral once you have my info?
+
+OFFICE AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?
+
+PATIENT (bot): Yeah, that’d be fine. Please connect me.
+
+OFFICE AGENT: Connecting you to a representative, please wait.
+
+OFFICE AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.
+
+PATIENT (bot): Alright, I'm on
+
+PATIENT (bot): Wait—hello? Are you still there? I still need that referral and the bill sorted.
+

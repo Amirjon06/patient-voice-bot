@@ -1,0 +1,43 @@
+Scenario: 10_hard_name_interrupt
+Call SID: CA05ed8bbd30394452e0f36cd50fd64499
+Generated: 2026-06-24T18:37:58.785713Z
+============================================================
+
+OFFICE AGENT: Esta llamada puede ser grabada para trabajos de calidad y entrenamiento. Para Español, oprima el 2.
+
+OFFICE AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. I'm going to see you with Marcus.
+
+PATIENT (bot): No, it's Wojciech Brzezinski. I'm calling to book an appointment.
+
+OFFICE AGENT: Please provide the full name and date of birth of the patient meeting the appointment.
+
+PATIENT (bot): Sure, it's Wojciech, and I'll spell the last name because it's tricky. Brzezinski, that's B—wait, it's B-R-Z, then E, Z, I, N, S, K, I. Date of birth is October 12, 1973.
+
+OFFICE AGENT: Just to confirm, I have your name as Wojcik Brzezinski and your date of birth as October 12th, 1973. Is that correct? If not, could you please spell your first and last name for me?
+
+PATIENT (bot): Yeah, not quite. Let me spell it out again, letter by letter. Last name is B—hold on—B as in boy, R, Z—yes, Z—E, Z, I, N, S, K, I. First name is Wojciech. W-O-J-C-I-E-C-H. Date of birth stays the same, October 12, 1973.
+
+OFFICE AGENT: Cool.
+
+OFFICE AGENT: Bye.
+
+PATIENT (bot): Hang on, before you finish—Wojciech is W-O-J, not W
+
+PATIENT (bot): —right, so it's W-O-J-C-I-E-C-H. Can we get that squared away so we can pick a time?
+
+OFFICE AGENT: Thank you for clarifying. Please spell the last name letter by letter and confirm the date of birth for the patient.
+
+PATIENT (bot): Last name is B as in boy, R, Z, E, Z, I, N, S, K, I. Date of birth is October 12, 1973.
+
+OFFICE AGENT: Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Let me know how you'd like to proceed.
+
+PATIENT (bot): Let's just stick with my name and date of birth, we already spelled it out. Can you find me that way?
+
+OFFICE AGENT: I'm unable to verify your information right now, so I can't book the appointment myself. I'll connect you to our patient support team to help you get scheduled. Please stay on the line. Connecting you to a representative. Please wait.
+
+OFFICE AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.
+
+PATIENT (bot): Alright, I'll hold. Please make it quick.
+
+PATIENT (bot): Wait, what? I thought you were connecting me. Can we actually get that appointment set up?
+

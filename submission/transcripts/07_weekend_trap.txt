@@ -1,0 +1,39 @@
+Scenario: 07_weekend_trap
+Call SID: CAfc6750d529d3213305d282236780658b
+Generated: 2026-06-24T18:24:14.925256Z
+============================================================
+
+OFFICE AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento.
+
+OFFICE AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Nice speaking with Marcus.
+
+PATIENT (bot): Uh, no, this is Greg Holt calling. I need to set up an appointment.
+
+OFFICE AGENT: Are you calling to schedule an appointment for yourself or for someone else?
+
+PATIENT (bot): It's for me. I want to come in this Sunday at 10 a.m.
+
+OFFICE AGENT: Please provide your date of birth.
+
+PATIENT (bot): Sure, it's June 14th, 1976. And can we get that Sunday at 10 a.m. set?
+
+OFFICE AGENT: To help find your record, can you tell me the phone number you have on file with us? If you're not sure, I can ask you to spell out your full name and confirm your date of birth again.
+
+PATIENT (bot): Yeah, the number should be 555-238-9011. Let's make sure that Sunday slot is open, yeah?
+
+OFFICE AGENT: I have your phone number as 555-238-8888.
+
+PATIENT (bot): Yeah, that's right. So can we lock in Sunday at 10 a.m.?
+
+OFFICE AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I connect you to our patient support team.
+
+OFFICE AGENT: 901 and your date of birth as June 14th 1976. Is that correct?
+
+OFFICE AGENT: connecting you to a representative. Please wait.
+
+OFFICE AGENT: Hello, you've reached the Pretty Good AI test line. Goodbye.
+
+PATIENT (bot): Okay, I'll hold, but I really need that Sunday at 10.
+
+PATIENT (bot): Wait, what? I need to book Sunday at 10, don't hang up on me. Hello? Are you still there?
+

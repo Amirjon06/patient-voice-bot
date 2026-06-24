@@ -1,0 +1,47 @@
+Scenario: 02_reschedule
+Call SID: CA423bf92b5f61bbfd4e84a1577e1a857b
+Generated: 2026-06-24T17:14:17.310959Z
+============================================================
+
+OFFICE AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+
+OFFICE AGENT: Thanks for calling pivot point orthopedics part of pretty good. Yeah, I must be key with Marcus
+
+PATIENT (bot): Hey, yeah, I need to reschedule my appointment. It's on Thursday at 2. Can you help me find a later slot?
+
+OFFICE AGENT: Can you please provide your date of birth?
+
+PATIENT (bot): Sure, it's May 14th, 1979.
+
+OFFICE AGENT: You have two upcoming appointments. One is tomorrow, Thursday, June 25th at 1030 a.m. with Kelly Noble, M.D. The other is on Tuesday, July 7th at 9 a.m. Just to confirm, do you want to reschedule the Thursday, June 25th appointment at 1030 a.m.?
+
+PATIENT (bot): Wait, I had it on my calendar for Thursday at 2. Are we talking about the same appointment? Because I need to move that one.
+
+OFFICE AGENT: Your appointment with Kelly Noble, M.D. is scheduled for Thursday, June 25th at 1030 a.m., not 2 p.m. Would you like to reschedule this 1030 a.m. appointment to a later time or a different day?
+
+PATIENT (bot): Okay, got it. Yeah, I need to push that later in the week or early next week. What's available?
+
+OFFICE AGENT: The next available times with Kelly Noble MDR Friday, June 26th.
+
+OFFICE AGENT: 1030 a.m. or Tuesday June 30th at 1030 or 11 a.m. Would any of these work for you or do you want to look for something later or at a different time of day?
+
+PATIENT (bot): Hmm, Friday at 10:30's tough. That Tuesday at 11 a.m., can we grab that?
+
+OFFICE AGENT: Before I reschedule, can you tell me the reason you need to move your appointment? For example, is it a schedule conflict, transportation issue, or something else?
+
+PATIENT (bot): It's just a work conflict. I've got a meeting I can't miss.
+
+OFFICE AGENT: Thanks for letting me know. To confirm, you want to move your appointment with Kelley Noble, MD, to Tuesday, June 30th at 11 a.m. in Nashville. Is that correct? You'll need to bring a photo ID and your insurance card. Should I go ahead and reschedule?
+
+PATIENT (bot): Yeah, that's right. Please go ahead and move it.
+
+OFFICE AGENT: Your appointment has been rescheduled to Tuesday, June 30th at 11 a.m. with Kelly Noble, M.D. Would you like me to send you a text with these details?
+
+PATIENT (bot): No, that's okay, I've got it. Thanks. Anything else I need to know?
+
+OFFICE AGENT: You're all set for your new appointment. Just arrive a few minutes early with your photo ID and insurance card.
+
+OFFICE AGENT: If you have any new symptoms or questions before your visit feel free to call. See you then.
+
+PATIENT (bot): Alright, sounds good. Thanks for your help. I'll see you then. Bye.
+
