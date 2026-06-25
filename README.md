@@ -2,13 +2,15 @@
 
 An automated voice bot that **calls a medical-office AI agent and role-plays as a patient**.
 It holds a natural spoken conversation, records both sides, transcribes them turn-by-turn,
-and gives you the material to find bugs in the agent's behavior.
+and produces the material to find bugs in the agent's behavior.
 
 It is built on **Twilio** (telephony) + the **OpenAI Realtime API** (the patient's brain
 and voice). Twilio places the call and streams live audio over a websocket to a small local
 server; that server bridges the audio to the Realtime API, which listens to the office agent
 and speaks back as the patient in real time. Server-side voice-activity detection handles
 natural turn-taking and barge-in.
+
+The 10 final calls (audio + transcripts) used for this submission live in **`submission/`**.
 
 ---
 
@@ -57,13 +59,10 @@ python -m src.server
 python -m src.call --list
 
 # Self-test FIRST: call your own phone and talk to the bot
-python -m src.call --to +1YOURCELL --scenario 01_schedule_simple
+python -m src.call --to +1YOURCELL --scenario 01_schedule_new
 
-# Real assessment call (defaults --to to the assessment number)
-python -m src.call --scenario 01_schedule_simple
-
-# Run every scenario back-to-back
-python -m src.call --all
+# Real assessment call
+python -m src.call --to +18054398008 --scenario 01_schedule_new
 ```
 
 **After calls finish, pull the audio:**
@@ -75,15 +74,35 @@ Transcripts land in `transcripts/`, recordings (mp3) in `recordings/`.
 
 ---
 
+## Scenarios
+
+Ten distinct patient scenarios, each a persona with a goal (prompts, not scripts — the bot
+improvises and steers toward its outcome like a real caller):
+
+| ID | Scenario |
+|----|----------|
+| 01_schedule_new        | New-patient appointment scheduling |
+| 02_reschedule          | Reschedule an existing appointment |
+| 03_cancel              | Cancel an appointment (unsure of date) |
+| 04_refill              | Medication refill request |
+| 05_hours_location      | Office hours + parking question |
+| 06_insurance           | Insurance coverage / copay question |
+| 07_weekend_trap        | Edge case: insists on a closed-Sunday slot |
+| 08_test_results        | Asking for lab results over the phone |
+| 09_referral_billing    | Referral request + a billing question |
+| 10_hard_name_interrupt | Edge case: hard-to-spell name + interruptions |
+
+---
+
 ## Recommended workflow
 
-1. **Test against your own cell phone first** until the conversation feels lucid and
-   the pacing is natural. Do not record real calls until the bot sounds good.
+1. **Test against your own cell phone first** until the conversation feels lucid and the
+   pacing is natural. Don't record real calls until the bot sounds good.
 2. Once it's solid, point it at the assessment number and bank your 10+ calls.
 3. Review transcripts + recordings, log issues in `BUG_REPORT.md`.
 
-> **Note on audio format:** Twilio recordings download as `.mp3`, which the brief accepts.
-> If you ever need `.ogg`, convert with `ffmpeg -i in.mp3 out.ogg`.
+> **Audio format:** Twilio recordings download as `.mp3`, which the brief accepts. For
+> `.ogg`, convert with `ffmpeg -i in.mp3 out.ogg`.
 
 ---
 
@@ -92,13 +111,14 @@ Transcripts land in `transcripts/`, recordings (mp3) in `recordings/`.
 ```
 src/
   config.py            env/secrets loading
-  scenarios.py         the 12 patient personas + goals
-  bridge.py            Twilio <-> OpenAI realtime audio bridge (FastAPI)
+  scenarios.py         the 10 patient personas + goals
+  bridge.py            Twilio <-> OpenAI Realtime audio bridge (FastAPI)
   server.py            runs the bridge
   call.py              CLI to place outbound calls
   fetch_recordings.py  downloads call recordings as mp3
-recordings/            call audio (mp3)
-transcripts/           per-call turn-by-turn transcripts
+submission/
+  recordings/          the 10 final call recordings (mp3)
+  transcripts/         the 10 final transcripts
 ARCHITECTURE.md        how it works + design choices
 BUG_REPORT.md          issues found in the agent
 ```
