@@ -192,7 +192,7 @@ async def media_stream(twilio_ws: WebSocket):
                     if etype and "delta" not in etype:
                         print(f"[openai-event] {etype}")
 
-                    # Patient (our bot) audio -> down to Twilio so the agent hears it.
+                    # Patient (my bot) audio -> down to Twilio so the agent hears it.
                     if etype in ("response.audio.delta", "response.output_audio.delta") and stream_sid:
                         await twilio_ws.send_text(json.dumps({
                             "event": "media",
@@ -200,7 +200,7 @@ async def media_stream(twilio_ws: WebSocket):
                             "media": {"payload": evt["delta"]},
                         }))
 
-                    # Patient's own words (what our bot said).
+                    # Patient's own words (what my bot said).
                     elif etype in ("response.audio_transcript.done", "response.output_audio_transcript.done"):
                         said = evt.get("transcript", "").strip()
                         if call_sid:
@@ -225,10 +225,11 @@ async def media_stream(twilio_ws: WebSocket):
                     # The office agent's speech, transcribed by Whisper.
                     elif etype == "conversation.item.input_audio_transcription.completed":
                         if call_sid:
+                            onset_ts = _agent_speech_start.pop(call_sid, None)
                             _transcripts[call_sid].append({
                                 "speaker": "office_agent",
                                 "text": evt.get("transcript", "").strip(),
-                                "ts": _agent_speech_start.get(call_sid, time.time()),
+                                "ts": onset_ts if onset_ts is not None else time.time(),
                             })
 
                     # When the caller starts talking, cancel any in-progress bot speech
@@ -241,12 +242,10 @@ async def media_stream(twilio_ws: WebSocket):
                             "streamSid": stream_sid,
                         }))
 
-
-
                     elif etype == "error":
                         print(f"[bridge] OpenAI error: {evt.get('error')}")
             except websockets.exceptions.ConnectionClosed:
-                print("[bridge] OpenAI connection closed")
+                print("[bridge] OpenAI connection closed")  
 
         await asyncio.gather(twilio_to_openai(), openai_to_twilio())
 
