@@ -1,17 +1,15 @@
 Scenario: 05_hours_location
-Call SID: CAd573853e44c72bfacd8e5f9beb4c2ca7
-Generated: 2026-06-24T18:14:04.862662Z
+Call SID: CA5039e3b2b42b87ff69fd81ba5c95b750
+Generated: 2026-06-25T01:08:29.369322Z
 ============================================================
 
-OFFICE AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+OFFICE AGENT: This call may be recorded for quality and training purposes.
 
-OFFICE AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Dude AI. Am I speaking with Marcus?
+OFFICE AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?
 
 PATIENT (bot): No, this is Kevin Tran. I just need to know what time you open on Saturdays and if there's parking nearby.
 
-OFFICE AGENT: Is there anything else I can help with?
+OFFICE AGENT: Pivot Point Orthopedics is open Monday through Friday and closed on Saturdays. There is free patient parking available in the surface lot in front of the building. Is there anything else I can help you with?
 
-OFFICE AGENT: Evett Point Orthopedics is open Monday through Friday and closed on Saturdays. There is free patient parking available in the surface lot in front of the building.
-
-PATIENT (bot): Got it, closed on Saturdays and parking's out front. That's all I needed. Thanks, bye.
+PATIENT (bot): Got it, so closed on Saturdays, parking's out front. That's all I needed, thanks. Bye.
 
